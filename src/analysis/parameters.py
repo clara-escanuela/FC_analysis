@@ -84,8 +84,8 @@ def integral_pars(waveforms, thr):
     return integral_over_thr
 
 def integral(waveforms, low, high):
-    summ = np.sum(waveforms[..., low:high], axis=-1)
-    sum_std = np.std(waveforms[..., low:high], axis=-1)
+    summ = np.sum(np.array(waveforms)[..., low:high], axis=-1)
+    sum_std = np.std(np.array(waveforms)[..., low:high], axis=-1)
 
     return summ, sum_std
 
