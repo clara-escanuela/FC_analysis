@@ -1,0 +1,13 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: slope1, datatype: float64}
+# - {name: intercept1, datatype: float64}
+# - {name: slope2, datatype: float64}
+# - {name: intercept2, datatype: float64}
+# - {name: slope3, datatype: float64}
+# - {name: intercept3, datatype: float64}
+# meta: {name: linear}
+# schema: astropy-2.0
+slope1 intercept1 slope2 intercept2 slope3 intercept3
+-0.004900581794174741 5.798907769352921 -0.0008194100280878303 1.1227491248418977 -0.0024483713950478325 3.3577345873972724

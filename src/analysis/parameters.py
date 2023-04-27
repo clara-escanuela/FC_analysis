@@ -101,8 +101,8 @@ def read_dynodes():
 
 def broken_pixels():
     broken_pix = []
-    pixels = np.arange(0, 1768)
-    broken_pixels = np.array([219, 576, 578, 807, 1395, 1684, 1764, 1765, 1766, 1767, 577, 1685, 1686])
+    pixels = np.arange(0, 1764)
+    broken_pixels = np.array([219, 576, 578, 807, 1395, 1684, 577, 1685, 1686])
 
     for i in range(0, len(pixels)):
         if i in broken_pixels:
@@ -113,7 +113,7 @@ def broken_pixels():
     return broken_pix
 
 def masked_pixels():
-    pixels = np.arange(0, 1768)
+    pixels = np.arange(0, 1764)
     masked_pixels = np.array([576, 578, 1684])
 
     masked_pix = []
